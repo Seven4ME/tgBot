@@ -2,8 +2,8 @@ import telebot
 from telebot import types
 import psycopg2
 
-conn = psycopg2.connect(dbname='bot', user='seven4me',
-                        password='323233a', host='localhost')
+conn = psycopg2.connect(dbname='d1rdnj891jf6jg', user='gcnaoqmstjxbtn',
+                        password='7d8d6df9df2dda63e93feb0ef321a0397673d6eaf45c0c54b1ef079613a21493', host='ec2-46-137-84-173.eu-west-1.compute.amazonaws.com')
 
 c = conn.cursor()
 bot_id = '1215880984:AAHuLxPx8vEuOVPIznPhOWBCKkBFUlZbKgs'
@@ -31,7 +31,7 @@ def welcome_message(message):
     user_id = message.from_user.id
     username = message.from_user.username
 
-    query_string = """INSERT INTO user_data_telegram(first_name, last_name, user_id, username) VALUES (%s,%s,%s,%s)"""
+    query_string = """INSERT INTO user_data_telegram_bot(first_name, last_name, user_id, username) VALUES (%s,%s,%s,%s)"""
     c.execute(query_string, (first_name, last_name, user_id, username))
 
     conn.commit()
