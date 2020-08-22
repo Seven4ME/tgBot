@@ -12,6 +12,18 @@ c = conn.cursor()
 bot_id = '1215880984:AAHuLxPx8vEuOVPIznPhOWBCKkBFUlZbKgs'
 bot = telebot.TeleBot(bot_id)
 
+@server.route('/' + bot_id, methods=['POST'])
+def get_message():
+    bot.process_new_updates([types.Update.de_json(
+         flask.request.stream.read().decode("utf-8"))])
+    return "!", 200
+
+@app.route("/")
+def webhook():
+    bot.remove_webhook()
+    bot.set_webhook(url="https://kosmolot-bot.herokuapp.com/")
+    return "!", 200
+
 @bot.message_handler(commands=['start', 'help', 'url'])
 def welcome_message(message):
     markup = types.InlineKeyboardMarkup()
@@ -43,11 +55,7 @@ def welcome_message(message):
         print('duplicated')
 
 
-@app.route("/")
-def webhook():
-    bot.remove_webhook()
-    bot.set_webhook(url='My Url here' + TOKEN)
-    return "!", 200
+
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
