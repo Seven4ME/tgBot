@@ -20,8 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a511606-a0af-4a78-8173-b62e1339ece7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -107,7 +105,7 @@
       <workItem from="1598016738853" duration="2751000" />
       <workItem from="1598027992607" duration="16309000" />
       <workItem from="1598080753830" duration="974000" />
-      <workItem from="1598082343489" duration="696000" />
+      <workItem from="1598082343489" duration="1172000" />
     </task>
     <task id="LOCAL-00001" summary="Keyboard">
       <created>1546501541054</created>
@@ -165,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598082360755</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Credentionals update">
+      <created>1598083168972</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1598083168972</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -197,7 +202,8 @@
     <MESSAGE value="Win first deployment" />
     <MESSAGE value="Procfile change" />
     <MESSAGE value="Procfile update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Procfile update" />
+    <MESSAGE value="Credentionals update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Credentionals update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="717" y="345" width="782" height="636" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598082785189">
@@ -217,10 +223,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="613" y="129" key="#main/0.0.1920.1200@0.0.1920.1200" timestamp="1598082613209" />
-    <state x="288" y="101" key="CommitChangelistDialog2" timestamp="1598082360418">
+    <state x="288" y="101" key="CommitChangelistDialog2" timestamp="1598083168704">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="288" y="101" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1598082360418" />
+    <state x="288" y="101" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1598083168704" />
     <state x="1725" y="738" width="636" height="719" key="FileChooserDialogImpl" timestamp="1598030653925">
       <screen x="76" y="27" width="3764" height="2133" />
     </state>
