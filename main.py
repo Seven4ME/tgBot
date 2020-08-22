@@ -2,6 +2,9 @@ import telebot
 from telebot import types
 import psycopg2
 import os
+from flask import Flask, request
+
+server = Flask(__name__)
 
 conn = psycopg2.connect(dbname='d1rdnj891jf6jg', user='gcnaoqmstjxbtn',
                         password='7d8d6df9df2dda63e93feb0ef321a0397673d6eaf45c0c54b1ef079613a21493', host='ec2-46-137-84-173.eu-west-1.compute.amazonaws.com')
@@ -9,10 +12,6 @@ conn = psycopg2.connect(dbname='d1rdnj891jf6jg', user='gcnaoqmstjxbtn',
 c = conn.cursor()
 bot_id = '1215880984:AAHuLxPx8vEuOVPIznPhOWBCKkBFUlZbKgs'
 bot = telebot.TeleBot(bot_id)
-
-def main():
-    port = os.getenv('PORT', default=8000)
-    updater.start_webhook(port=port)
 
 @bot.message_handler(commands=['start', 'help', 'url'])
 def welcome_message(message):
@@ -49,3 +48,4 @@ def welcome_message(message):
 
 if __name__ == '__main__':
     bot.polling(none_stop=True)
+    server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
