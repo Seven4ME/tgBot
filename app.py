@@ -32,13 +32,10 @@ def welcome_message(message):
     user_id = message.from_user.id
     username = message.from_user.username
 
-    try:
-        query_string = """INSERT INTO user_data_telegram_bot(first_name, last_name, user_id, username) VALUES (%s,%s,%s,%s)"""
-        c.execute(query_string, (first_name, last_name, user_id, username))
+    query_string = """INSERT INTO user_data_telegram_bot(first_name, last_name, user_id, username) VALUES (%s,%s,%s,%s)"""
+    c.execute(query_string, (first_name, last_name, user_id, username))
 
-        conn.commit()
-    except:
-        print('duplicated')
+    conn.commit()
 
 
 
