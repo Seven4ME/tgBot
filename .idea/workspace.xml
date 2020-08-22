@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0a511606-a0af-4a78-8173-b62e1339ece7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,7 +82,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +106,7 @@
       <workItem from="1598016738853" duration="2751000" />
       <workItem from="1598027992607" duration="16309000" />
       <workItem from="1598080753830" duration="974000" />
-      <workItem from="1598082343489" duration="5560000" />
+      <workItem from="1598082343489" duration="5655000" />
     </task>
     <task id="LOCAL-00001" summary="Keyboard">
       <created>1546501541054</created>
@@ -261,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598088502919</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Procfile update">
+      <created>1598088622756</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1598088622756</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -325,10 +333,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="613" y="129" key="#main/0.0.1920.1200@0.0.1920.1200" timestamp="1598084566196" />
-    <state x="430" y="67" key="CommitChangelistDialog2" timestamp="1598088502682">
+    <state x="430" y="67" key="CommitChangelistDialog2" timestamp="1598088622520">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="430" y="67" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1598088502682" />
+    <state x="430" y="67" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1598088622520" />
     <state x="1725" y="738" width="636" height="719" key="FileChooserDialogImpl" timestamp="1598030653925">
       <screen x="76" y="27" width="3764" height="2133" />
     </state>
