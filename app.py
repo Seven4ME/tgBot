@@ -14,7 +14,7 @@ bot = telebot.TeleBot(bot_id)
 def welcome_message(message):
     markup = types.InlineKeyboardMarkup()
     how_to_get_ua = types.InlineKeyboardButton(text='💸Получить Бонус',
-                                               url='https://l1l.pw/3d79k3/sub1:sub2:sub3:sub4:sub5',
+                                               url='http://hotto.top/cosmo',
                                                callback_data='how_to_get_ua')
 
     if how_to_get_ua.callback_data == 'how_to_get_ua':
