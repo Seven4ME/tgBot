@@ -10,6 +10,10 @@ c = conn.cursor()
 bot_id = '1215880984:AAHuLxPx8vEuOVPIznPhOWBCKkBFUlZbKgs'
 bot = telebot.TeleBot(bot_id)
 
+def main():
+    port = os.getenv('PORT', default=8000)
+    updater.start_webhook(port=port)
+
 @bot.message_handler(commands=['start', 'help', 'url'])
 def welcome_message(message):
     markup = types.InlineKeyboardMarkup()
