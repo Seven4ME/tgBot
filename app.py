@@ -21,7 +21,7 @@ def get_message():
 @app.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url="https://kosmolot-bot.herokuapp.com/")
+    bot.set_webhook(url="https://kosmolot-bot.herokuapp.com/{}").format(bot_id)
     return "!", 200
 
 @bot.message_handler(commands=['start', 'help', 'url'])
