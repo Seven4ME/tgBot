@@ -12,7 +12,7 @@ c = conn.cursor()
 bot_id = '1215880984:AAHuLxPx8vEuOVPIznPhOWBCKkBFUlZbKgs'
 bot = telebot.TeleBot(bot_id)
 
-@server.route('/' + bot_id, methods=['POST'])
+@app.route('/' + bot_id, methods=['POST'])
 def get_message():
     bot.process_new_updates([types.Update.de_json(
          flask.request.stream.read().decode("utf-8"))])
