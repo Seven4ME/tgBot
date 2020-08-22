@@ -22,7 +22,6 @@
     <list default="true" id="0a511606-a0af-4a78-8173-b62e1339ece7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,9 @@
       <workItem from="1598016738853" duration="2751000" />
       <workItem from="1598027992607" duration="16309000" />
       <workItem from="1598080753830" duration="974000" />
-      <workItem from="1598082343489" duration="7818000" />
+      <workItem from="1598082343489" duration="8750000" />
+      <workItem from="1598093743125" duration="523000" />
+      <workItem from="1598096509538" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="Keyboard">
       <created>1546501541054</created>
@@ -311,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598090249657</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="test">
+      <created>1598091406863</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1598091406863</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView">
@@ -357,7 +365,8 @@
     <MESSAGE value="Procfile update" />
     <MESSAGE value="change name of main file" />
     <MESSAGE value="Update app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update app" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="717" y="345" width="782" height="636" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598082785189">
@@ -377,10 +386,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="613" y="129" key="#main/0.0.1920.1200@0.0.1920.1200" timestamp="1598084566196" />
-    <state x="430" y="67" key="CommitChangelistDialog2" timestamp="1598090249443">
+    <state x="430" y="67" key="CommitChangelistDialog2" timestamp="1598091406581">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="430" y="67" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1598090249443" />
+    <state x="430" y="67" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1598091406581" />
     <state x="1725" y="738" width="636" height="719" key="FileChooserDialogImpl" timestamp="1598030653925">
       <screen x="76" y="27" width="3764" height="2133" />
     </state>
@@ -421,10 +430,10 @@
       <screen x="76" y="27" width="3764" height="2133" />
     </state>
     <state x="1197" y="553" width="1522" height="1087" key="SettingsEditor/76.27.3764.2133/3840.0.3840.2160@76.27.3764.2133" timestamp="1598030756228" />
-    <state x="822" y="510" width="360" height="231" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1598086078676">
+    <state x="822" y="510" width="360" height="231" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1598091690253">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="822" y="510" width="360" height="231" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1598086078676" />
+    <state x="822" y="510" width="360" height="231" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1598091690253" />
     <state x="1687" y="934" width="531" height="326" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog/76.27.3764.2133/3840.0.3840.2160@76.27.3764.2133" timestamp="1598044323017" />
     <state x="1599" y="830" width="707" height="529" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1598028694337">
       <screen x="76" y="27" width="3764" height="2133" />
