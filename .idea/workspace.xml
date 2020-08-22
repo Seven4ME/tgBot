@@ -105,7 +105,7 @@
       <workItem from="1598016738853" duration="2751000" />
       <workItem from="1598027992607" duration="16309000" />
       <workItem from="1598080753830" duration="974000" />
-      <workItem from="1598082343489" duration="3771000" />
+      <workItem from="1598082343489" duration="4232000" />
     </task>
     <task id="LOCAL-00001" summary="Keyboard">
       <created>1546501541054</created>
@@ -198,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598085974963</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Flask server">
+      <created>1598086746976</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598086746976</updated>
+    </task>
+    <task id="LOCAL-00015" summary="requirements update">
+      <created>1598086827250</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1598086827250</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -235,7 +249,9 @@
     <MESSAGE value="duplicated key update" />
     <MESSAGE value="procfile update" />
     <MESSAGE value="procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="procfile" />
+    <MESSAGE value="Flask server" />
+    <MESSAGE value="requirements update" />
+    <option name="LAST_COMMIT_MESSAGE" value="requirements update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="717" y="345" width="782" height="636" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598082785189">
@@ -255,10 +271,10 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="613" y="129" key="#main/0.0.1920.1200@0.0.1920.1200" timestamp="1598084566196" />
-    <state x="288" y="101" key="CommitChangelistDialog2" timestamp="1598085974730">
+    <state x="288" y="101" key="CommitChangelistDialog2" timestamp="1598086827036">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="288" y="101" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1598085974730" />
+    <state x="288" y="101" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1598086827036" />
     <state x="1725" y="738" width="636" height="719" key="FileChooserDialogImpl" timestamp="1598030653925">
       <screen x="76" y="27" width="3764" height="2133" />
     </state>

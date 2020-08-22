@@ -1,7 +1,6 @@
 import telebot
 from telebot import types
 import psycopg2
-from flask import Flask, request
 import os
 
 conn = psycopg2.connect(dbname='d1rdnj891jf6jg', user='gcnaoqmstjxbtn',
@@ -45,5 +44,4 @@ def welcome_message(message):
 
 
 if __name__ == '__main__':
-    server.run(host="0.0.0.0", port=os.environ.get('PORT', 80))
     bot.polling(none_stop=True)
