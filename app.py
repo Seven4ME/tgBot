@@ -2,27 +2,13 @@ import telebot
 from telebot import types
 import psycopg2
 import os
-from flask import Flask, request
 
-app = Flask(__name__)
 conn = psycopg2.connect(dbname='d1rdnj891jf6jg', user='gcnaoqmstjxbtn',
                         password='7d8d6df9df2dda63e93feb0ef321a0397673d6eaf45c0c54b1ef079613a21493', host='ec2-46-137-84-173.eu-west-1.compute.amazonaws.com')
 
 c = conn.cursor()
 bot_id = '1215880984:AAHuLxPx8vEuOVPIznPhOWBCKkBFUlZbKgs'
 bot = telebot.TeleBot(bot_id)
-
-@app.route('/' + bot_id, methods=['POST'])
-def get_message():
-    bot.process_new_updates([types.Update.de_json(
-         flask.request.stream.read().decode("utf-8"))])
-    return "!", 200
-
-@app.route("/")
-def webhook():
-    bot.remove_webhook()
-    bot.set_webhook(url="https://kosmolot-bot.herokuapp.com/{}").format(bot_id)
-    return "!", 200
 
 @bot.message_handler(commands=['start', 'help', 'url'])
 def welcome_message(message):
@@ -58,5 +44,5 @@ def welcome_message(message):
 
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
+    bot.polling(none_stop=True)
 
