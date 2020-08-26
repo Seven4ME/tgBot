@@ -23,9 +23,9 @@ import locale
 app = Flask(__name__)
 
 viber = Api(BotConfiguration(
-    name='kosmo',
+    name='Kosmolot',
     avatar='',
-    auth_token='4c07f232e8e7ddc5-2dc3cf9e360c1fd9-e17b1d05526ea8f2'
+    auth_token='4c0b26f3c8a7d3df-d671ca5492ec4e71-48a92da09ff86295'
 ))
 
 
