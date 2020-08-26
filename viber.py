@@ -29,9 +29,9 @@ viber = Api(BotConfiguration(
 ))
 
 
-webhook_url = 'https://kosmolot-bot.herokuapp.com/'
+webhook_url = 'https://kosmolot-bot.herokuapp.com/viber'
 
-@app.route('/', methods=['POST'])
+@app.route('/viber', methods=['POST'])
 def incoming():
     print("received request. post data: {0}".format(request.get_data()))
     # every viber message is signed, you can verify the signature using this method
@@ -188,6 +188,6 @@ if __name__ == '__main__':
     viber.set_webhook("")
     time.sleep(1)
     scheduler = sched.scheduler(time.time, time.sleep)
-    scheduler.enter(5, 1, create_webhook, (viber, webhookURL,))
+    scheduler.enter(5, 1, create_webhook, (viber, webhook_url,))
     t = threading.Thread(target=scheduler.run)
     app.run(debug=True)
